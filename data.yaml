@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['buses_only', 'give_way', 'no_entry', 'no_honking', 'no_overtaking', 'no_parking', 'other_danger', 'pedestrian_crossing', 'slippery_road', 'stop']
+
+roboflow:
+  workspace: bunkung
+  project: detect_thairoadsigns
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/bunkung/detect_thairoadsigns/dataset/4
